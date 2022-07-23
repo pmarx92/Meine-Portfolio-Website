@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js.js" defer></script>
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="wrapper">
+            <div class="scoreBoard">
+                <h3>
+                    Round: <span id="round">0</span>
+                </h3>
+                <h3>
+                    Player <span id="playerScore">0</span> - <span id="computerScore">0</span> Computer
+                </h3>
+            </div>
+            <div class="main-board">
+                <div class="gameBoard">
+                    <p id="player">Player choose:</p>
+                    <p id="computer">Computer choose:</p>
+                    <p id="gameStatus">Game:</p>
+                </div>
+            </div>
+            <button onclick="playRound(0), game()" id="rock">Rock</button>
+            <button onclick="playRound(1), game()" id="paper">Paper</button>
+            <button onclick="playRound(2), game()" id="scissors">Scissors</button>
+            <button onclick="restart()" id="restart">Restart</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

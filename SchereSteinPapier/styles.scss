@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: min(50%, 90%);
+}
+h1 {
+  background-color: lightblue;
+  padding: 20px;
+  width: 20rem;
+  box-shadow: 2px 2px 2px;
+}
+.wrapper {
+  height: 600px;
+  .main-board {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gameBoard {
+    margin-bottom: 4rem;
+    padding: 20px;
+
+    p {
+      font-size: 18px;
+      padding: 12px;
+    }
+  }
+  button {
+    font-size: 18px;
+    border-radius: 10rem;
+    padding: 0.6rem 2.5rem;
+    margin: 1rem;
+    background-color: lightblue;
+    text-transform: uppercase;
+    border-color: rgba(0, 0, 0, 0.05);
+  }
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  #restart {
+    font-style: oblique;
+    background-color: lightgreen;
+  }
+  .gameBoard span {
+    font-size: 18px;
+  }
+  .scoreBoard {
+    font-size: 26px;
+    padding: 20px;
+
+    margin-bottom: 3rem;
+  }
+}
+.win {
+  color: green;
+}
+.lose {
+  color: red;
+}

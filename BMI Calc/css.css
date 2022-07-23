@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  background-color: lightgreen;
+  padding: 20px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+}
+.container-input {
+  padding: 20px;
+}
+.container {
+  margin-top: 1rem;
+  padding: 20px;
+}
+p {
+  font-size: 18px;
+}
+button {
+  margin-top: 0.5rem;
+  padding: 2px;
+}
+input {
+  margin-top: 5px;
+  padding: 2px;
+  border-radius: 5px;
+}

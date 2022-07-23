@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>BMI Rechner</title>
+</head>
+<body> 
+    <h1>BMI Rechner - JavaScript</h1>
+    <div class="container-input">
+
+   
+    <label for="weight">Gewicht (Kilogramm)</label>
+    <input id="weight" type="numbers"><br/>
+    <label for="weight">Körpergröße (Meter)</label>
+    <input id="height" type="numbers"><br/>
+    <button onclick="calculateBmi()">Submit</button>
+    <button onclick="reload()">Clear</button>
+</div>
+<div class="container">
+    <h3 id="heading"></h3>
+    <p id="bmi-output"></p>
+    <h3 id="messageHeading"></h3>
+    <p id="message"></p>
+</div>
+
+    <script src="js.js"></script>
+</body>
+</html>
